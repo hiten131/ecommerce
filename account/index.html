@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account - E-commerce</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="../script.js" defer></script>
+</head>
+<body>
+    <header>My Account</header>
+    <nav>
+        <div class="navbar">
+            <a href="../index.html">Home</a>
+            <a href="../products/products.html">Products</a>
+            <a href="#">About</a>
+            <a href="#">Contact us</a>
+            <a href="account.html" class="account-link active">
+                <i class="fas fa-user"></i> My Account
+            </a>
+        </div>
+    </nav>
+
+    <main class="account-content">
+        <div class="account-container">
+            <div class="account-sidebar">
+                <nav class="account-nav">
+                    <a href="profile.html" class="active"><i class="fas fa-user"></i> Profile</a>
+                    <a href="orders.html"><i class="fas fa-shopping-bag"></i> Orders</a>
+                    <a href="wishlist.html"><i class="fas fa-heart"></i> Wishlist</a>
+                    <a href="addresses.html"><i class="fas fa-map-marker-alt"></i> Addresses</a>
+                    <a href="setting.html"><i class="fas fa-cog"></i> Settings</a>
+                </nav>
+            </div>
+
+            <div class="account-main">
+                <section id="profile" class="account-section">
+                    <h2>Profile Information</h2>
+                    <form class="profile-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" value="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" value="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" value="+1 234 567 890">
+                        </div>
+                        <button type="submit" class="save-btn">Save Changes</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

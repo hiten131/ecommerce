@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Addresses - E-commerce</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="../script.js" defer></script>
+</head>
+<body>
+    <header>My Addresses</header>
+    <nav>
+        <div class="navbar">
+            <a href="../index.html">Home</a>
+            <a href="../products/products.html">Products</a>
+            <a href="#">About</a>
+            <a href="#">Contact us</a>
+            <a href="index.html" class="account-link active">
+                <i class="fas fa-user"></i> My Account
+            </a>
+        </div>
+    </nav>
+
+    <main class="account-content">
+        <div class="account-container">
+            <div class="account-sidebar">
+                <nav class="account-nav">
+                    <a href="profile.html"><i class="fas fa-user"></i> Profile</a>
+                    <a href="orders.html"><i class="fas fa-shopping-bag"></i> Orders</a>
+                    <a href="wishlist.html"><i class="fas fa-heart"></i> Wishlist</a>
+                    <a href="addresses.html" class="active"><i class="fas fa-map-marker-alt"></i> Addresses</a>
+                    <a href="settings.html"><i class="fas fa-cog"></i> Settings</a>
+                </nav>
+            </div>
+
+            <div class="account-main">
+                <section id="addresses" class="account-section">
+                    <h2>My Addresses</h2>
+                    <button class="add-address-btn"><i class="fas fa-plus"></i> Add New Address</button>
+                    
+                    <div class="addresses-grid">
+                        <div class="address-card">
+                            <div class="address-type">Home</div>
+                            <h3>John Doe</h3>
+                            <p>123 Main Street</p>
+                            <p>Apt 4B</p>
+                            <p>New York, NY 10001</p>
+                            <p>United States</p>
+                            <p>Phone: +1 234 567 890</p>
+                            <div class="address-actions">
+                                <button class="edit-btn"><i class="fas fa-edit"></i> Edit</button>
+                                <button class="delete-btn"><i class="fas fa-trash"></i> Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

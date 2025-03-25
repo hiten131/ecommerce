@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js" defer></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>Our Products</header>
+    <nav>
+        <div class="navbar">
+            <a href="../index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="#">About</a>
+            <a href="#">Contact us</a>
+        </div>
+    </nav>
+
+    <main class="content">
+        <div class="filters">
+            <select id="category-filter">
+                <option value="">All Categories</option>
+                <option value="electronics">Electronics</option>
+                <option value="fashion">Fashion</option>
+                <option value="home">Home & Living</option>
+            </select>
+            <select id="price-filter">
+                <option value="">Price Range</option>
+                <option value="0-50">$0 - $50</option>
+                <option value="51-100">$51 - $100</option>
+                <option value="101-200">$101 - $200</option>
+                <option value="201+">$201+</option>
+            </select>
+        </div>
+
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="../dummy.jpg" alt="Product 1">
+                <div class="product-info">
+                    <h3>Wireless Headphones</h3>
+                    <p class="price">$99.99</p>
+                    <p class="description">High-quality wireless headphones with noise cancellation.</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="../dummy.jpg" alt="Product 2">
+                <div class="product-info">
+                    <h3>Smart Watch</h3>
+                    <p class="price">$149.99</p>
+                    <p class="description">Feature-rich smartwatch with health monitoring.</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+    
+                <div class="product-card">
+                    <img src="../dummy.jpg" alt="Product 3">
+                    <div class="product-info">
+                        <h3>4K Smart TV</h3>
+                        <p class="price">$699.99</p>
+                        <p class="description">55-inch 4K Ultra HD Smart LED TV with HDR.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <div class="product-card">
+                    <img src="../dummy.jpg" alt="Product 4">
+                    <div class="product-info">
+                        <h3>Gaming Laptop</h3>
+                        <p class="price">$1299.99</p>
+                        <p class="description">15.6" Gaming Laptop with RTX 3060, 16GB RAM.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <div class="product-card">
+                    <img src="../dummy.jpg" alt="Product 5">
+                    <div class="product-info">
+                        <h3>Coffee Maker</h3>
+                        <p class="price">$79.99</p>
+                        <p class="description">Programmable coffee maker with thermal carafe.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <div class="product-card">
+                    <img src="../dummy.jpg" alt="Product 6">
+                    <div class="product-info">
+                        <h3>Fitness Tracker</h3>
+                        <p class="price">$49.99</p>
+                        <p class="description">Water-resistant fitness tracker with heart rate monitor.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <div class="product-card">
+                    <img src="../dummy.jpg" alt="Product 7">
+                    <div class="product-info">
+                        <h3>Wireless Keyboard</h3>
+                        <p class="price">$89.99</p>
+                        <p class="description">Mechanical wireless keyboard with RGB lighting.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <div class="product-card">
+                    <img src="../dummy.jpg" alt="Product 8">
+                    <div class="product-info">
+                        <h3>Air Purifier</h3>
+                        <p class="price">$159.99</p>
+                        <p class="description">HEPA air purifier for large rooms with air quality sensor.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <div class="product-card">
+                    <img src="../dummy.jpg" alt="Product 9">
+                    <div class="product-info">
+                        <h3>Bluetooth Speaker</h3>
+                        <p class="price">$129.99</p>
+                        <p class="description">Waterproof portable speaker with 20-hour battery life.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <div class="product-card">
+                    <img src="../dummy.jpg" alt="Product 10">
+                    <div class="product-info">
+                        <h3>Digital Camera</h3>
+                        <p class="price">$449.99</p>
+                        <p class="description">24MP mirrorless camera with 4K video capability.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more product cards as needed -->
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Customer Service</h4>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section">
+                <h4>Connect With Us</h4>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section">
+                <h4>Newsletter</h4>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Your E-Commerce. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

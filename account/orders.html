@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Orders - E-commerce</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="../script.js" defer></script>
+</head>
+<body>
+    <header>My Account</header>
+    <nav>
+        <div class="navbar">
+            <a href="../index.html">Home</a>
+            <a href="../products/products.html">Products</a>
+            <a href="#">About</a>
+            <a href="#">Contact us</a>
+            <a href="account.html" class="account-link active">
+                <i class="fas fa-user"></i> My Account
+            </a>
+        </div>
+    </nav>
+    <main class="account-content">
+        <div class="account-container">
+            <div class="account-container">
+                <div class="account-sidebar">
+                    <nav class="account-nav">
+                        <a href="profile.html" class="active"><i class="fas fa-user"></i> Profile</a>
+                        <a href="orders.html"><i class="fas fa-shopping-bag"></i> Orders</a>
+                        <a href="wishlist.html"><i class="fas fa-heart"></i> Wishlist</a>
+                        <a href="addresses.html"><i class="fas fa-map-marker-alt"></i> Addresses</a>
+                        <a href="settings.html"><i class="fas fa-cog"></i> Settings</a>
+                    </nav>
+                </div>
+            <div class="account-main">
+                <section id="orders" class="account-section">
+                    <h2>My Orders</h2>
+                    <div class="orders-list">
+                        <div class="order-card">
+                            <div class="order-header">
+                                <span class="order-id">Order #12345</span>
+                                <span class="order-date">March 20, 2024</span>
+                                <span class="order-status">Delivered</span>
+                            </div>
+                            <div class="order-items">
+                                <img src="../dummy.jpg" alt="Product" width="50" height="50">
+                                <div class="order-details">
+                                    <h4>Wireless Headphones</h4>
+                                    <p>Quantity: 1</p>
+                                    <p>$99.99</p>
+                                </div>
+                            </div>
+                            <button class="track-btn">Track Order</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Addresses - E-commerce</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="../script.js" defer></script>
+<body>
+    <header>My Account</header>
+    <nav>
+        <div class="navbar">
+            <a href="../index.html">Home</a>
+            <a href="../products/products.html">Products</a>
+            <a href="#">About</a>
+            <a href="#">Contact us</a>
+            <a href="account.html" class="account-link active">
+                <i class="fas fa-user"></i> My Account
+            </a>
+        </div>
+    </nav>
+    <main class="account-content">
+        <div class="account-container">
+            <div class="account-container">
+                <div class="account-sidebar">
+                    <nav class="account-nav">
+                        <a href="profile.html" class="active"><i class="fas fa-user"></i> Profile</a>
+                        <a href="orders.html"><i class="fas fa-shopping-bag"></i> Orders</a>
+                        <a href="wishlist.html"><i class="fas fa-heart"></i> Wishlist</a>
+                        <a href="addresses.html"><i class="fas fa-map-marker-alt"></i> Addresses</a>
+                        <a href="settings.html"><i class="fas fa-cog"></i> Settings</a>
+                    </nav>
+                </div>
+            <div class="account-main">
+                <section id="wishlist" class="account-section">
+                    <h2>My Wishlist</h2>
+                    <div class="wishlist-grid">
+                        <div class="product-card">
+                            <img src="../dummy.jpg" alt="Product" width="200" height="200">
+                            <div class="product-info">
+                                <h3>Smart Watch</h3>
+                                <p class="price">$149.99</p>
+                                <button class="add-to-cart">Move to Cart</button>
+                                <button class="remove-wishlist"><i class="fas fa-trash"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
